@@ -7,6 +7,7 @@ public class SC_ClickSpawner : MonoBehaviour
     public GameObject[] prefabs; //Prefabs to spawn
     public bool canSpawnHere;
 
+
     Camera c;
     int selectedPrefab = 0;
     int rayDistance = 300;
@@ -14,6 +15,8 @@ public class SC_ClickSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+
         c = GetComponent<Camera>();
         if (prefabs.Length == 0)
         {
