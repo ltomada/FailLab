@@ -5,6 +5,7 @@ using UnityEngine;
 public class SC_ClickSpawner : MonoBehaviour
 {
     public GameObject[] prefabs; //Prefabs to spawn
+    public bool canSpawnHere;
 
     Camera c;
     int selectedPrefab = 0;
@@ -18,6 +19,8 @@ public class SC_ClickSpawner : MonoBehaviour
         {
             Debug.LogError("You haven't assigned any Prefabs to spawn");
         }
+
+        canSpawnHere = true;
     }
 
     // Update is called once per frame
@@ -49,7 +52,7 @@ public class SC_ClickSpawner : MonoBehaviour
                 Destroy(selectedTransform.gameObject);
             }
         }
-        else if (Input.GetMouseButtonDown(0))
+        else if (Input.GetMouseButtonDown(0) && canSpawnHere)
         {
             //On left click spawn selected prefab and align its rotation to a surface normal
             Vector3[] spawnData = GetClickPositionAndNormal();
