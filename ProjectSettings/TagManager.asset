@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - ignore
+  - TowerLv1
+  - TowerLv2
+  - TowerLv3
   layers:
   - Default
   - TransparentFX
