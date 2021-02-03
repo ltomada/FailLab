@@ -8,6 +8,7 @@ TagManager:
   - TowerLv1
   - TowerLv2
   - TowerLv3
+  - Charriot
   layers:
   - Default
   - TransparentFX
