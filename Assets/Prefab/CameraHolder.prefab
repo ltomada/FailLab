@@ -1166,13 +1166,13 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: CharriotMaint
+          name: ChariotMaint
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: CharriotUpKeep
+          name: ChariotUpKeep
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -1250,7 +1250,7 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: CharriotUpKeep
+          name: ChariotUpKeep
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -1708,7 +1708,7 @@ MonoBehaviour:
     variables:
       floatVariables:
       - useVariable: 1
-        name: CharriotUpKeep
+        name: ChariotUpKeep
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -1733,7 +1733,7 @@ MonoBehaviour:
         value: 0
       intVariables:
       - useVariable: 1
-        name: CharriotMaint
+        name: ChariotMaint
         tooltip: 
         showInInspector: 0
         networkSync: 0
